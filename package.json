@@ -1,0 +1,36 @@
+{
+  "name": "study-ts-vue2",
+  "version": "1.0.0",
+  "description": "一个学习项目，用TS复刻vue2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenKhat/study-ts-vue2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenKhat/study-ts-vue2/issues"
+  },
+  "homepage": "https://github.com/ChenKhat/study-ts-vue2#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "rollup": "^2.66.0",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.5.5",
+    "vue": "2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0"
+  }
+}
